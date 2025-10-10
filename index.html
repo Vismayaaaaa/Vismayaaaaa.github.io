@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vismaya A S | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="dock-nav fade-in-down">
+  <div class="nav-brand">
+    <span class="full-name">Vismaya</span>
+    <span class="logo-v">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="#FF6B6B" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2 2 L12 22 L22 2 H18 L12 14 L6 2 Z"/>
+      </svg>
+    </span>
+  </div>
+
+  <div class="hamburger glass" onclick="toggleMenu(this)">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <ul id="nav-links">
+    <li><a href="#home" class="active">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+  <div class="content slide-in-left">
+    <h2>Hi, I'm <span>Vismaya A S</span></h2>
+    <p>Web Developer | Designer | Innovator</p>
+    <div class="hero-buttons">
+      <a href="resume.pdf" download class="btn resume-btn">
+        <i class="fas fa-file-download"></i> Download Resume
+      </a>
+      <a href="#contact" class="btn contact-btn">
+        <i class="fas fa-envelope"></i> Contact Me
+      </a>
+    </div>
+
+    <div class="socials fade-in">
+      <a href="https://github.com/Vismayaaaaa" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://in.linkedin.com/in/vismaya-a-s-582aa7235" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </div>
+
+  <!-- Floating profile bubble -->
+  <div class="hero-shape slide-in-right">
+    <div class="hero-overlay"></div>
+    <img src="profie.jpg" alt="Vismaya A S" class="hero-img">
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="fade-in">
+  <h3>About Me</h3>
+  <div class="about-text">
+    <p>
+      I am a Computer Science Engineering student with a strong foundation in programming, web development, and problem-solving. Over the course of my academic journey, I have worked on projects ranging from a deep learning–based aircraft detection system to full-stack web applications, where I was able to blend technical skills with creativity to deliver meaningful solutions.
+    </p>
+    <p>
+      Beyond coding, I value teamwork, communication, and continuous learning.
+      My goal is to grow into a software engineer who can design impactful,
+      user-focused solutions that bridge technology and real-world challenges.
+    </p>
+  </div>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="fade-in">
+  <div class="skills-header">
+    <h2>Skills</h2>
+    <h3 class="skills-tagline">From code to creation — skills that shape ideas.</h3>
+  </div>
+
+  <div class="skills-grid">
+    <div class="skill-card"><i class="fas fa-code"></i><p>C</p></div>
+    <div class="skill-card"><i class="fab fa-java"></i><p>Java</p></div>
+    <div class="skill-card"><i class="fab fa-html5"></i><p>HTML</p></div>
+    <div class="skill-card"><i class="fab fa-css3-alt"></i><p>CSS</p></div>
+    <div class="skill-card"><i class="fab fa-js"></i><p>JavaScript</p></div>
+    <div class="skill-card"><i class="fas fa-database"></i><p>MySQL</p></div>
+    <div class="skill-card"><i class="fab fa-python"></i><p>Python</p></div>
+    <div class="skill-card"><i class="fab fa-github"></i><p>GitHub</p></div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section id="projects" class="fade-in">
+  <h2>Projects</h2>
+  <h3 class="projects-tagline">Building ideas into reality, one project at a time.</h3>
+  
+  <div class="project-grid">
+    <!-- Project 1 -->
+    <div class="project-card slide-in-left">
+      <div class="project-img">
+        <img src="skyscan.png" alt="SkyScan Project">
+      </div>
+      <div class="project-content">
+        <h4>SkyScan</h4>
+        <p>Deep learning–based system for detecting and tracking aircraft from satellite imagery with high accuracy.</p>
+        <div class="tech-stack">
+          <span><i class="fab fa-python"></i> Python</span>
+          <span><i class="fas fa-robot"></i> YOLOv8</span>
+          <span><i class="fab fa-react"></i> React.js</span>
+          <span><i class="fas fa-server"></i> Flask</span>
+          <span><i class="fab fa-html5"></i> HTML</span>
+          <span><i class="fab fa-css3-alt"></i> CSS</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/yourusername/skyscan" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://skyscan-demo.com" target="_blank"><i class="fas fa-rocket"></i></a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Project 2 -->
+    <div class="project-card reverse slide-in-right">
+      <div class="project-img">
+        <img src="campusconnect.png" alt="CampusConnect Project">
+      </div>
+      <div class="project-content">
+        <h4>CampusConnect</h4>
+        <p>Centralized college web app for managing announcements, mentoring, and student feedback.</p>
+        <div class="tech-stack">
+          <span><i class="fab fa-php"></i> PHP</span>
+          <span><i class="fas fa-database"></i> MySQL</span>
+          <span><i class="fab fa-html5"></i> HTML</span>
+          <span><i class="fab fa-css3-alt"></i> CSS</span>
+          <span><i class="fab fa-js"></i> JavaScript</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/yourusername/campusconnect" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://campusconnect-demo.com" target="_blank"><i class="fas fa-rocket"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="fade-in">
+  <h3>Contact Me</h3>
+  <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+  <div class="contact-icons">
+    <a href="mailto:vismayaanilkumar1101@gmail.com"><i class="fas fa-envelope"></i></a>
+    <a href="tel:+917306832725"><i class="fas fa-phone"></i></a>
+    <a href="https://github.com/Vismayaaaaa" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://in.linkedin.com/in/vismaya-a-s-582aa7235" target="_blank"><i class="fab fa-linkedin"></i></a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Vismaya A S | Built with HTML & CSS</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
